@@ -1,0 +1,27 @@
+
+.container {
+  width: 856px;
+  margin: 0 auto;
+  
+}
+.header {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 152px 0;
+}
+
+.img2 {
+  max-width: 1076px;
+  margin: 0 -110px;
+}
+
+.doc{
+    list-style-type:disc ;
+    }
+.bi {
+  padding-right: 8px;
+  vertical-align: bottom;
+}
