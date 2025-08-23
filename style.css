@@ -1,0 +1,103 @@
+/*引入字體*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+@import"variables.css";
+@import"base.css";
+@import"utils.css";
+
+
+
+
+
+
+
+/*元件*/
+.slash+.slash::before{
+    content: "/";
+    padding:  0 12px;
+    color: var(--Neutral-300);
+    font-weight:700;
+}
+.slash{
+    display: flex;
+    font-weight: 500;
+}
+.brand-link{
+    color: var(--Neutral-600);
+}    
+@media(max-width: 767px){
+  .slash+.slash::before{
+    padding: 0 8px;
+  }
+  .slash{
+    font-size: 14px;
+  }
+}
+.list{
+    font-family: Noto Sans TC;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+} 
+.btn{
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    
+    
+} 
+@media(max-width: 576px){
+  .btn{
+    padding: 8px 16px;
+  }
+    .word{
+    font-family: Noto Sans TC;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+}
+.page .active{     
+     background-color: var(--Primary-300);
+}
+.page .btn{
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 400;
+}
+.bg-primary-200{
+    background-color: var(--Primary-200);
+    height: 96px;
+}
+.btn1{
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: none;
+    background-color: var(--Neutral-900);
+    color:white;
+} 
+.active{
+  color: var(--Primary-400);
+}
+.cop{
+   color: var(--Neutral-600); 
+   font-family: Noto Sans TC;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding-bottom: 4px;
+}
