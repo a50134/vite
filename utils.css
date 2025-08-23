@@ -170,6 +170,9 @@
 .flex-column-m{
     flex-direction: column;
 }
+.flex-wrap-m{
+ flex-wrap: wrap;
+}
 .flex-nowrap-m{
  flex-wrap: nowrap;
 }
